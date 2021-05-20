@@ -1,11 +1,11 @@
 <template>
   <tab-bar>
-    <tab-bar-item path="/home" activeColor="red">
+    <tab-bar-item path="/home" activeColor="var(--color-high-text)">
       <img slot="item-icon" src="~assets/img/tabbar/home.svg" />
       <img slot="item-icon-active" src="~assets/img/tabbar/home_active.svg" />
       <div slot="item-text">首页</div>
     </tab-bar-item>
-    <tab-bar-item path="/category" activeColor="red">
+    <tab-bar-item path="/category" activeColor="var(--color-high-text)">
       <img slot="item-icon" src="~assets/img/tabbar/category.svg" />
       <img
         slot="item-icon-active"
@@ -13,7 +13,7 @@
       />
       <div slot="item-text">分类</div>
     </tab-bar-item>
-    <tab-bar-item path="/cart" activeColor="red">
+    <tab-bar-item path="/cart" activeColor="var(--color-high-text)">
       <img slot="item-icon" src="~assets/img/tabbar/shopcart.svg" />
       <img
         slot="item-icon-active"
@@ -21,7 +21,7 @@
       />
       <div slot="item-text">购物车</div>
     </tab-bar-item>
-    <tab-bar-item path="/profile" activeColor="red">
+    <tab-bar-item path="/profile" activeColor="var(--color-high-text)">
       <img slot="item-icon" src="~assets/img/tabbar/profile.svg" />
       <img
         slot="item-icon-active"
@@ -44,6 +44,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>
